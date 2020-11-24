@@ -92,8 +92,6 @@ h2 {
     width: 100%;
     text-align: center;
     padding: 50px;
-    /* background-color: rgba(74, 16, 13, 0.15) !important; */
-    
 }
 
 .processNumContainer {
@@ -117,17 +115,39 @@ h2 {
 .processCard {
     background-color: rgba(74, 16, 13, 0.15) !important;
 }
-.card-body{
+
+.card-body {
     max-height: 300px;
-    text-align: center  ;
-
-
+    text-align: center;
 }
-.processBody{
+
+.processBody {
     height: 400px;
     background-color: #DED7D7 !important;
     background-color: inherit;
+}
 
+
+/* Srvice Types */
+
+.serviceTypesImg{
+    width: 250px;
+    height: 100%;
+}
+
+.serviceTypes{
+    background-color: #DED7D7 !important;
+    padding: 10px;
+    margin: 3px;
+    
+}
+
+.serviceTypeCard{
+    padding: 5px;
+}
+.serviceTypeCard:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(74, 16, 13, 0.3);; 
+    box-shadow: 5px 5px 15px 5px rgba(74, 16, 13, 0.3);;
 }
 
 /* FAQ */

@@ -11,9 +11,11 @@ html {
 .navbar-toggler-icon {
     color: white;
 }
-.fixed-top{
+
+.fixed-top {
     margin-bottom: 120px;
 }
+
 /* Header Carousel  */
 
 #headerCaro {
@@ -209,10 +211,6 @@ h2 {
     padding: 0px 50px;
 }
 
-
-
-
-
 /* footer */
 
 footer {
@@ -242,4 +240,9 @@ ul li {
     font-size: 1.5em;
     background-color: #fff9e334;
     border-radius: 50%;
+}
+
+footer p {
+    text-align: center;
+    padding: 50px 0 0 0;
 }

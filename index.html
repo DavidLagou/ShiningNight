@@ -3,6 +3,7 @@
 
 <head>
   <!-- Required meta tags -->
+  <title> Shining Light</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -25,7 +26,7 @@
 <body>
 
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #133329;">
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light " style="background-color: #133329;">
       <img src="./images/logo.png" width="40" height="30" alt="">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +36,22 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#about">About us <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+            <a class="nav-link" href="#process">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link" href="#faq">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonial</a>
+            <a class="nav-link" href="#testimonial">Testimonial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Reservation</a>
+            <a class="nav-link" href="#estimate">Reservation</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">O</a>
+            <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
           </li>
 
         </ul>
@@ -58,7 +59,6 @@
       </div>
     </nav>
   </header>
-
 
   <section id="headerCaro">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -116,9 +116,9 @@
   <main>
 
     <!-- About us section -->
-    <h2> Who We Are</h2>
-    <section class="aboutContainer">
-
+    <section class="aboutContainer" id="about">
+      
+      <h2> Who We Are</h2>
       <div class="row featurette">
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" src="./images/about.jpg" alt="Generic placeholder image">
@@ -142,12 +142,12 @@
           </p>
         </div>
 
+      </div>
+      <hr>
     </section>
-    <hr>
-
-    <h2> What We Do</h2>
 
     <section class="aboutContainer">
+      <h2> What We Do</h2>
       <!--Carousel Wrapper-->
       <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -158,13 +158,6 @@
         </div>
         <!--/.Controls-->
 
-        <!--Indicators-->
-        <ol class="carousel-indicators">
-          <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
-          <li data-target="#multi-item-example" data-slide-to="1"></li>
-
-        </ol>
-        <!--/.Indicators-->
 
         <!--Slides-->
         <div class="carousel-inner" role="listbox">
@@ -235,20 +228,15 @@
             </div>
 
           </div>
-          <!--/.Second slide-->
-
-
 
         </div>
-        <!--/.Slides-->
 
       </div>
-      <!--/.Carousel Wrapper-->
     </section>
 
 
-    <h2> How it works</h2>
-    <section class="processContainer">
+    <section class="processContainer" id="process">
+      <h2> How it works</h2>
       <div class="album py-5 bg-light">
         <div class="container">
 
@@ -259,7 +247,7 @@
                   <p>1</p>
                 </div>
                 <div class="processImg">
-                  <img src="./images/planning.png" alt="" height="90px" width="90px">
+                  <img src="./images/planning.png" alt="">
                 </div>
                 <div class="card-body processBody">
                   <h3> PLANNING </h3>
@@ -279,7 +267,7 @@
                 </div>
                 <div class="processImg">
 
-                  <img src="./images/install.svg" alt="" height="90px" width="90px">
+                  <img src="./images/install.svg" alt="">
                 </div>
                 <div class="card-body processBody">
                   <h3> INSTALLATION </h3>
@@ -299,11 +287,12 @@
                 </div>
                 <div class="processImg">
 
-                  <img src="./images/maintain.png" alt="" height="90px" width="90px">
+                  <img src="./images/maintain.png" alt="">
                 </div>
                 <div class="card-body processBody">
                   <h3> MAINTENANCE </h3>
-                  <p class="card-text">We commit to making at least 2 process visits at your property during the holiday
+                  <p class="card-text">We commit to making at least 2 process visits at your property during the
+                    holiday
                     season to ensure that everything is functioning as it should.
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -320,7 +309,7 @@
                 </div>
                 <div class="processImg">
 
-                  <img src="./images/timetake.png" alt="" height="90px" width="90px">
+                  <img src="./images/timetake.png" alt="">
                 </div>
                 <div class="card-body processBody">
                   <h3> TAKEDOWN:
@@ -342,9 +331,9 @@
     </section>
 
 
-    <h2> Service Types</h2>
 
     <section class="servicesContainer">
+      <h2> Service Types</h2>
 
       <div class="container">
         <div class="row">
@@ -387,30 +376,31 @@
 
           </div>
         </div>
+      </div>
     </section>
 
     <hr>
 
 
-    <h2> FAQ</h2>
-    <section id="faqContainer">
-
+    <section class="faqContainer" id="faq"> 
+      <h2> FAQ</h2>
       <div class="accordion" id="accordionExample">
         <!-- Q.1 -->
         <div class="card">
           <div class="card-header" id="headingOne">
-            <h2 class="mb-0">
+            <h3 class="mb-0">
               <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
                 aria-expanded="true" aria-controls="collapseOne">
                 How much will it cost us to have our decorations installed and taken down?
 
               </button>
-            </h2>
+            </h3>
           </div>
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              The fastest and easiest way for us to give you an accurate quote is for you to text or email a picture of
+              The fastest and easiest way for us to give you an accurate quote is for you to text or email a picture
+              of
               your house or project. Bills can range from CAD$399 – CAD$59,999 depending on what is needed.
 
             </div>
@@ -419,13 +409,13 @@
         <!-- Q.2 -->
         <div class="card">
           <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
+            <h3 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
                 aria-expanded="false" aria-controls="collapseTwo">
                 What happens if I have a problem with my lights?
 
               </button>
-            </h2>
+            </h3>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
@@ -439,19 +429,21 @@
         <!-- Q.3 -->
         <div class="card">
           <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
+            <h3 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
                 aria-expanded="false" aria-controls="collapseThree">
                 When should I schedule my Christmas light installation?
 
               </button>
-            </h2>
+            </h3>
           </div>
 
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Due to our short and fast-paced season, the sooner you schedule your installation the better chance you’ll
-              have to get your lights installed and choose a date that you prefer. Installations begin in early October
+              Due to our short and fast-paced season, the sooner you schedule your installation the better chance
+              you’ll
+              have to get your lights installed and choose a date that you prefer. Installations begin in early
+              October
               and end in late December. Please call for early.
 
             </div>
@@ -461,18 +453,19 @@
         <!-- Q.4 -->
         <div class="card">
           <div class="card-header" id="headingFour">
-            <h2 class="mb-0">
+            <h3 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
                 aria-expanded="false" aria-controls="collapseFour">
                 When should I book an appointment?
 
               </button>
-            </h2>
+            </h3>
           </div>
 
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
-              We recommend you to book an appointment as early as possible. The holiday season is the busiest season so
+              We recommend you to book an appointment as early as possible. The holiday season is the busiest season
+              so
               please call for early as possible.
 
             </div>
@@ -483,18 +476,19 @@
         <!-- Q.5 -->
         <div class="card">
           <div class="card-header" id="headingFive">
-            <h2 class="mb-0">
+            <h3 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
                 aria-expanded="false" aria-controls="collapseFive">
                 Are your light energy efficient?
 
               </button>
-            </h2>
+            </h3>
           </div>
 
           <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
             <div class="card-body">
-              We care about the environment. All our lights are energy efficient and eco-friendly. The cost to power an
+              We care about the environment. All our lights are energy efficient and eco-friendly. The cost to power
+              an
               LED light is 80 to 90% less than incandescent lights.
 
             </div>
@@ -504,9 +498,9 @@
     </section>
     <hr>
 
-    <h2> Request an Estimate</h2>
 
-    <section class="estimateContainer">
+    <section class="estimateContainer" id="estimate">
+      <h2> Request an Estimate</h2>
 
       <div class="row ">
         <div class="col-md-5">
@@ -521,12 +515,12 @@
 
             <div class="form-group">
               <label for="exampleFormControlInput1"> Email</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+              <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email Address">
             </div>
 
             <div class="form-group">
               <label for="exampleFormControlInput1"> Contact Number </label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="(XXX)-XXX-XXXX">
+              <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="(XXX)-XXX-XXXX">
             </div>
 
 
@@ -537,14 +531,14 @@
             <button type="submit" class="btn btn-primary mb-2"> Submit Estimate</button>
           </form>
         </div>
-
+      </div>
 
 
     </section>
     <hr>
-    <h2> Testimonial</h2>
 
-    <section class="testContainer">
+    <section class="testContainer" id="testimonial">
+      <h2> Testimonial</h2>
 
       <div class="card-deck">
         <div class="card testCard">
@@ -556,7 +550,8 @@
             <h5 class="card-title">Johnny J.</h5>
             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
               class="fas fa-star"></i><i class="fas fa-star"></i>
-            <p class="card-text">Shining night did a great job. The price was reasonable and the service was excellent.
+            <p class="card-text">Shining night did a great job. The price was reasonable and the service was
+              excellent.
               Highly recommended and will be using them again.</p>
           </div>
         </div>
@@ -583,7 +578,8 @@
             <h5 class="card-title">Vicky S.</h5>
             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
               class="fas fa-star"></i><i class="fas fa-star"></i>
-            <p class="card-text">I was very satisfied with the quality of work done by Shining night. The team showed up
+            <p class="card-text">I was very satisfied with the quality of work done by Shining night. The team showed
+              up
               on time and worked efficiently. I have booked them again for next Christmas.</p>
           </div>
         </div>
@@ -609,7 +605,7 @@
   </main>
 
   <footer>
-    <div class="container ">
+    <div class="container">
       <div class="row">
         <div class="col-sm contactContainer">
           <ul>

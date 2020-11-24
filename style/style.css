@@ -32,6 +32,16 @@ html {
     bottom: initial;
     color: #FFF9E3;
 }
+.carousel-caption a{
+    text-decoration: none;
+    padding: 3px 8px;
+    width: 119px;
+    height: 31px;
+    background: #FFF9E3;
+    border-radius: 16px;
+    font-weight: 600;
+    color: black;
+}
 
 .btnStyle {
     padding: 3px 8px;

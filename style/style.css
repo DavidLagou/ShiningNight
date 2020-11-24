@@ -117,7 +117,7 @@ h2 {
 }
 
 .card-body {
-    max-height: 300px;
+    /* max-height: 300px; */
     text-align: center;
 }
 
@@ -127,27 +127,21 @@ h2 {
     background-color: inherit;
 }
 
-
 /* Srvice Types */
 
-.serviceTypesImg{
+.serviceTypesImg {
     width: 250px;
     height: 100%;
 }
 
-.serviceTypes{
+.serviceTypes {
     background-color: #DED7D7 !important;
     padding: 10px;
     margin: 3px;
-    
 }
 
-.serviceTypeCard{
+.serviceTypeCard {
     padding: 5px;
-}
-.serviceTypeCard:hover{
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(74, 16, 13, 0.3);; 
-    box-shadow: 5px 5px 15px 5px rgba(74, 16, 13, 0.3);;
 }
 
 /* FAQ */
@@ -174,4 +168,61 @@ h2 {
 
 .chevDown {
     float: right;
+}
+
+/* Testimonial */
+
+.testImg img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 0px auto;
+}
+
+.testImg {
+    text-align: center;
+}
+
+.testCard {
+    background-color: #FFFFFF;
+    border: none;
+    padding-top: 10px;
+}
+
+/* Request an Estimate */
+
+.estimateContainer, .testContainer {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0px 50px;
+}
+
+/* footer */
+footer {
+    background-color: #133329;
+    color: #FFF9E3;
+    padding: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.contactContainer li {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.socialIconsContainer a i {
+    color: #FFF9E3;
+    padding: 10px;
+}
+
+.socialIconsContainer i{
+    padding: 100px;
+    font-size: 1.5em;
+    background-color: #fff9e334;
+    border-radius: 50%;
 }

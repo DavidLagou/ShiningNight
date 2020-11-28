@@ -16,6 +16,10 @@ html {
     margin-bottom: 120px;
 }
 
+.searchInput {
+    background-color: white !important;
+}
+
 /* Header Carousel  */
 
 #headerCaro {
@@ -32,7 +36,8 @@ html {
     bottom: initial;
     color: #FFF9E3;
 }
-.carousel-caption a{
+
+.carousel-caption a {
     text-decoration: none;
     padding: 3px 8px;
     width: 119px;
@@ -132,16 +137,18 @@ h2 {
 
 .processCard {
     background-color: rgba(74, 16, 13, 0.15) !important;
+    margin-bottom: 50px;
 }
 
 .card-body {
     /* max-height: 300px; */
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .processBody {
     height: 400px;
-    background-color: #DED7D7 !important;
+    background-color: #E7E0E0 !important;
     background-color: inherit;
 }
 
@@ -194,6 +201,27 @@ h2 {
     float: right;
 }
 
+/* FORM  */
+
+.form-control {
+    background: rgba(74, 16, 13, 0.15);
+    border-radius: 8px;
+    color: #4A100D;
+}
+
+.estimateBtn {
+    float: right;
+    background: #4A100D;
+    border-radius: 12px;
+    color: #FFF9E3;
+}
+
+.estimateContainer, .testContainer {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0px 50px;
+}
+
 /* Testimonial */
 
 .testImg img {
@@ -213,12 +241,8 @@ h2 {
     padding-top: 10px;
 }
 
-/* Request an Estimate */
-
-.estimateContainer, .testContainer {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0px 50px;
+.fas.fa-star {
+    color: #4A100D;
 }
 
 /* footer */

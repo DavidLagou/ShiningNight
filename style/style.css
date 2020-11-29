@@ -152,6 +152,28 @@ h2 {
     background-color: inherit;
 }
 
+.extraPadding{
+    margin-bottom: 2.2em;
+}
+/* SLIDER */
+
+
+.carousel-multi-item{
+    display: flex;
+}
+.caroContainer{
+    padding: 0 10px;
+}
+.btn-floating{
+    position: relative;
+    top: 50%;
+}
+
+.fas.fa-chevron-left,.fas.fa-chevron-right{
+    color: #4A100D;
+    font-size: 1.2em;
+}
+
 /* Srvice Types */
 
 .serviceTypesImg {
